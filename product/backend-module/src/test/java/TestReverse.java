@@ -24,4 +24,14 @@ public class TestReverse {
     }
 
 
+    /**
+     *
+     */
+    @Test
+    public void test3(){
+        String string = new ReverseString()
+                .reverseOfAString("Hello");
+        Assert.assertEquals("olleH", string);
+    }
+
 }
